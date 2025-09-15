@@ -20,3 +20,14 @@ The script in the python file `Create_filename_list_excel.py` creates an Excel f
 ## Metadata – match images to records
 
 The script in the python file `Insert_modified_filenames_into_metadata_excel_doc_in_seq_matching_date_pp.py` links the final image filenames to the metadata Excel file by matching photopoint ID and date (`YYYYMMDD` or `YYYYMM` if the day is unknown), filling up to four photo slots per entry, and saving the results to a new output file.
+
+## License
+
+Copyright © 2025 Terrestrial Ecosystem Research Network (TERN). All material is published under the licence
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
