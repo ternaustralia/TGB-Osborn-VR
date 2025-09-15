@@ -1,5 +1,5 @@
 #EXCEL LIST
-#   -create excel doc with list of all jpeg filenames within a specified source directory, iterating through subfolderse too
+#   -create excel doc with list of all jpeg filenames within a specified source directory, iterating through subfolderse as well
 
 import os
 import glob 
@@ -26,9 +26,10 @@ jpg_files = [
 ]
 
 #save to excel file
-output_file = source_dir / "Original_File_Name_List_Output.xlsx"  
-df = pd.DataFrame(jpg_files, columns=["Original File Names"])
+output_file = source_dir / "File_Name_List_Output.xlsx"  
+df = pd.DataFrame(jpg_files, columns=["File Names"])
 df.to_excel(output_file, index=False)
 
 print("Excel file created: ", output_file)
+
 print('done')
